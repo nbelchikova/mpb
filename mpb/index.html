@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="assets/logo.PNG">
+    <title>MPB</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="img_logo">
+                <img src="assets/logo.PNG" alt="logo">
+            </div>
+            <div class="list">
+                <ul class="list_ul">
+
+                    <li class="list_li"><a href="#">Home</a></li>
+                    <li class="list_li" ><a id="log" href="#">Login</a></li>
+                    <li class="list_li"><a id="rej" href="#">Rej:</a></li>
+                    <li class="list_li"><a href="#">Notice</a></li>
+                    <li class="list_li"><a href="#">Help</a></li>
+                    <li class="list_li"><a href="#">About</a></li>
+                    
+                </ul>
+                <button class="sign" id="sign">Sign in</button>
+            </div>
+            
+        </nav>
+        <div class="list_addition" id="list_addition">
+            
+                <ul class="list_ul_addition">
+
+                    <li class="list_li_addition"><a href="#">Deposit</a></li>
+                    <li class="list_li_addition"><a href="#">Withdraw</a></li>
+                    <li class="list_li_addition"><a href="#">Notice</a></li>
+                    <li class="list_li_addition"><a href="#">Offer</a></li>
+                    <li class="list_li_addition"><a href="#">Sports</a></li>
+                    <li class="list_li_addition"><a href="#">Lottery</a></li>
+                    <li class="list_li_addition"><a href="#">Details</a></li>
+                    <li class="list_li_addition"><a id='setting'href="#">setting</a></li>
+                    
+                </ul>
+
+        </div>
+
+
+    </header>
+    <main class="main">
+        <div class="form">
+            <form class="form1" id="form1" action="#" onsubmit="return false;">
+                <div class="decription">Registration</div>
+                <label for="name">Full name</label>
+                <input name="name" required id="name" type="text"> 
+                <br>
+                <label for="gender">Gender</label>
+                <input name="gender" id="gender" required type="text"> 
+                <br>
+                <label for="idNumber">Id number</label>
+                <input name="idNumber" id="idNumber" required type="text"> 
+                <br>
+                <label for="mobile">Mobile number</label>
+                <input name="mobile" id="mobile" required  type="text"> 
+                <br>
+                <label for="gmail">Gmail</label>
+                <input name="gmail" id="gmail"required  type="email"> 
+                <br>
+                <label for="pasword">Password</label>
+                <input name="password" id="password" required  type="password"> 
+                <br>
+                <label for="promo">Prome code</label>
+                <input name="promo"id="promo" required  type="text"> 
+                <br>
+                <button class="button_submit" id="button2">Register</button>
+            </form>
+            <form class="form2"id="form2" action="#" onsubmit="return false;">
+                <div class="decription">Login</div>
+                <label for="idNumber">Id number</label>
+                <input name="idNumber" id="idNumber" required type="text">
+                <br> 
+                <label for="mobile">Mobile number</label>
+                <input name="mobile" id="mobile" required  type="text"> 
+                <br>
+                <label for="gmail">Gmail</label>
+                <input name="gmail" id="gmail"required  type="email"> 
+                <br>
+                <label for="pasword">Password</label>
+                <input name="password" id="password" required  type="password"> 
+                <br>
+                <button class="button_submit" id="button1">Login</button>
+            </form>
+            <form class="form3" id="form3"action="#" onsubmit="return false;">
+                <div class="decription">Forget Password</div>
+                <label for="idNumber">Id number</label>
+                <input name="idNumber" id="idNumber" required type="text"> 
+                <br>
+                <label for="mobile">Mobile number</label>
+                <input name="mobile" id="mobile" required  type="text"> 
+                <br>
+                <label for="gmail">Gmail</label>
+                <input name="gmail" id="gmail"required  type="email"> 
+                <br>
+                <label for="pasword">Password</label>
+                <input name="password" id="password" required  type="password"> 
+                <br>
+                <button class="button_submit" id="button3">Verification</button>
+            </form>
+        </div>
+        
+    </main>
+    <script src="index.js"></script>
+    
+</body>
+</html>
